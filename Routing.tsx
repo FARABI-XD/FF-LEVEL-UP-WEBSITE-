@@ -1,14 +1,14 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { Play, Cpu, LogOut, ChevronDown, Loader2, Server, CloudOff, ShieldCheck } from 'lucide-react';
 import { Instance, LogEntry, CurrentUser, User, AppConfig } from './types';
-import { launchInstanceApi, deleteInstanceApi } from './services/api';
-import { getSession, logout, fetchUserSession, saveUserInstances, saveUserLogs, fetchAppConfig } from './services/auth';
-import ConsoleLog from './components/ConsoleLog';
-import ActiveInstances from './components/ActiveInstances';
-import HowToUse from './components/HowToUse';
-import Login from './components/Login';
-import AdminPanel from './components/AdminPanel';
-import ExpiryTimer from './components/ExpiryTimer';
+import { launchInstanceApi, deleteInstanceApi } from './api';
+import { getSession, logout, fetchUserSession, saveUserInstances, saveUserLogs, fetchAppConfig } from './auth';
+import ConsoleLog from './ConsoleLog';
+import ActiveInstances from './ActiveInstances';
+import HowToUse from './HowToUse';
+import Login from './Login';
+import AdminPanel from './AdminPanel';
+import ExpiryTimer from './ExpiryTimer';
 
 const Routing: React.FC = () => {
   // Auth State
