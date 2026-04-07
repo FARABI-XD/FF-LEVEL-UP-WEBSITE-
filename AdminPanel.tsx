@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Users, UserPlus, Trash2, LogOut, Shield, RefreshCw } from 'lucide-react';
 import { fetchUsers, createUser, deleteUser, fetchAppConfig, saveAppConfig } from '../services/auth';
-import { User, BotConfig } from '../types';
+import { User, BotConfig } from './types';
 import ExpiryTimer from './ExpiryTimer';
 
 interface AdminPanelProps {
