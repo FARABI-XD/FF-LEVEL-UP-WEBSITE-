@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { LogEntry } from '../types';
+import { LogEntry } from './types';
 import { Terminal } from 'lucide-react';
 
 interface ConsoleLogProps {
