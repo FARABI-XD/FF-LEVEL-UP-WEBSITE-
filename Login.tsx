@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ShieldCheck, Lock, User, ExternalLink, Youtube, Loader2, LogIn, RefreshCw } from 'lucide-react';
-import { login, fetchAppConfig } from '../auth';
-import { CurrentUser } from '../types';
+import { login, fetchAppConfig } from './auth';
+import { CurrentUser } from './types';
 
 interface LoginProps {
   onLogin: (user: CurrentUser) => void;
