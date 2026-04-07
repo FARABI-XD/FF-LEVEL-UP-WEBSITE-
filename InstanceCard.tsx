@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Instance, LevelInfo } from '../types';
-import { fetchLevelInfo, fetchProfileData } from '../services/api';
+import { Instance, LevelInfo } from './types';
+import { fetchLevelInfo, fetchProfileData } from './api';
 import { Trash2, StopCircle, RotateCw, Shield, ShieldAlert, User as UserIcon, RefreshCw, Zap, Loader2, Timer, TrendingUp, ArrowRight, Play, Image as ImageIcon } from 'lucide-react';
 
 interface InstanceCardProps {
