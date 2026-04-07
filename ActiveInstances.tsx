@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instance } from '../types';
+import { Instance } from './types';
 import { Activity } from 'lucide-react';
 import InstanceCard from './InstanceCard';
 
