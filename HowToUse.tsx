@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BookOpen, Gamepad2, UserCheck, MessageSquare, AlertOctagon, AlertTriangle, Youtube } from 'lucide-react';
-import { fetchAppConfig } from '../auth';
+import { fetchAppConfig } from './auth';
 
 const HowToUse: React.FC = () => {
   const [customInstructions, setCustomInstructions] = useState('');
